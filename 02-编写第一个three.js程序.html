@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>02-编写第一个three.js程序</title>
+    <script src="https://cdn.bootcss.com/three.js/r74/three.js"></script>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    var scene = new THREE.Scene(); //创建一个场景
+
+    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000); //创建一个相机
+
+    var renderer = new THREE.WebGLRenderer(); // 创建一个渲染器
+
+    renderer.setClearColor('#ffffff')
+
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    document.body.appendChild(renderer.domElement); 
+
+    var geometry = new THREE.CubeGeometry(2, 2, 2);  // 创建一个几何体
+
+    var material = new THREE.MeshBasicMaterial({ color: 0xff0000 }); // 添加一个基础材质， 如果没有材质立方体几乎看不到
+
+    var cube = new THREE.Mesh(geometry, material);  // 网格对象
+
+    scene.add(cube); //将网格加入到场景
+
+    camera.position.z = 5;  // 相机和物体都在坐标原点，什么都看不到，所以将相机移动位置
+
+    function render() {
+        requestAnimationFrame(render); // 当浏览器空闲的时候会不断的调用，单线程。 不至于卡死
+
+        cube.rotation.x += 0.01; // 将立方体绕x轴旋转
+
+        cube.rotation.z += 0.01; // 将立方体绕z轴旋转
+
+        cube.rotation.y += 0.01; // 将立方体绕y轴旋转
+
+        renderer.render(scene, camera);  // 通过场景和相机就可以将画面渲染出来
+    }
+
+    render();
+
+</script>
+
+</html>
