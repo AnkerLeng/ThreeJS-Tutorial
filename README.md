@@ -4,7 +4,7 @@ WebGL  Three.js 教程
 
 # 目录
 - [01-WebGL与three.js的基础、与opengl的关系](#01)
-- [第一个three.js程序](#02)
+- [第一个three.js程序](#02)  | [查看Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
 
 <h2 id="01">01-WebGL与three.js的基础、与opengl的关系</h2>
 
@@ -30,7 +30,7 @@ Three.js 是一个封装好的webgl库,它使WebGL的学习变得简单
 ### tree.js的下载
 https://threejs.org/
 
-<h2 id="02">02-编写第一个three.js程序</h2> [Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
+<h2 id="02">02-编写第一个three.js程序</h2> 
 
 ### 四大组件：场景
 场景就是舞台，你可以把任何要显示的东西，放在场景中的任何位置
