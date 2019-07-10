@@ -1,7 +1,12 @@
 # ThreeJS-Tutorial
 WebGL  Three.js 教程
 
-## 01-WebGL与three.js的基础、与opengl的关系
+
+# 目录
+- [01-WebGL与three.js的基础、与opengl的关系](#01)
+- [第一个three.js程序](#02)
+
+<h2 id="01">01-WebGL与three.js的基础、与opengl的关系</h2>
 
 ### 什么是WebGL
 WebGL 是一项可以在浏览器中流畅展示3D模型和场景的一种技术，他使用JavaScript作为编程语言, 调用浏览器支持的3D绘制函数，来实现3D模型和场景的展现。
@@ -25,7 +30,7 @@ Three.js 是一个封装好的webgl库,它使WebGL的学习变得简单
 ### tree.js的下载
 https://threejs.org/
 
-## 02-编写第一个three.js程序 [Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
+<h2 id="02">02-编写第一个three.js程序</h2> [Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
 
 ### 四大组件：场景
 场景就是舞台，你可以把任何要显示的东西，放在场景中的任何位置
@@ -60,7 +65,7 @@ THREE.WebGLRenderer()
 
 
 ### 第一个three.js程序
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 
