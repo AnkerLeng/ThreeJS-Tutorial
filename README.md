@@ -4,7 +4,7 @@ WebGL  Three.js 教程
 
 # 目录
 - [01-WebGL与three.js的基础、与opengl的关系](#01)
-- [第一个three.js程序](#02)  | [查看Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
+- [02-第一个three.js程序](#02)  | [查看Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
 
 <h2 id="01">01-WebGL与three.js的基础、与opengl的关系</h2>
 
