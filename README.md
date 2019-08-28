@@ -6,7 +6,7 @@ OpenGL  WebGL  Three.js 教程
 - [01-WebGL与three.js的基础、与opengl的关系](#01)
 - [02-第一个three.js程序](#02)  | [查看Demo](https://ankerleng.github.io/ThreeJS-Tutorial/02-编写第一个three.js程序.html)
 - [03-three.js程序框架，绘制一条直线](#03) | [查看Demo](https://ankerleng.github.io/ThreeJS-Tutorial/03-three.js程序框架，绘制一条直线.html)
-- 
+- gltf 模型展示
 
 <h2 id="01">01-WebGL与three.js的基础、与opengl的关系</h2>
 
